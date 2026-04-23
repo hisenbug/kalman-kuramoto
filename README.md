@@ -1,5 +1,3 @@
-# bardo
-
 Numerical study of **sparse predictive synchronization** in Kuramoto networks.
 Each oscillator replaces direct observation of the global mean field with a
 Kalman-filtered estimate computed from a fraction $\varepsilon$ of neighbours.
@@ -11,7 +9,7 @@ Sparse Predictive Multi-Agent Synchronization"* (Atma Anand, Department of
 Physics & Astronomy, University of Rochester; Finger Lakes Science &
 Technology Showcase, 2026).
 
-## Headline findings
+## Main findings
 
 1. Predictive agents reach baseline Kuramoto coherence at $\sim$5 % of the
    all-to-all communication cost ($N=2000$); the fraction shrinks with
@@ -102,5 +100,5 @@ If you build on this, please cite the poster:
 ```
 Anand, A. (2026). The Choir Without a Conductor: Phase Transitions in
 Sparse Predictive Multi-Agent Synchronization. Finger Lakes Science &
-Technology Showcase, University of Rochester.
+Technology Showcase, Rochester.
 ```
