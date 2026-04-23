@@ -1,0 +1,32 @@
+{
+  "experiment": "exp4b_tconv_vs_K",
+  "timestamp_utc": "2026-04-18T21:47:12Z",
+  "git_hash": "4d72948a0560a91fc7af5e5cb2c405443a6f6066",
+  "git_dirty": true,
+  "torch_version": "2.10.0",
+  "mps_available": true,
+  "physics": {
+    "N": 2000,
+    "dt": 0.05,
+    "T": 4000,
+    "coupling_J": 1.5,
+    "noise_sigma": 3.0,
+    "omega_std": 0.5
+  },
+  "epsilon": 0.005,
+  "K_values": [
+    2.0,
+    5.0,
+    10.0,
+    20.0,
+    50.0,
+    100.0,
+    200.0
+  ],
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "wall_time_s": 37.23028206825256
+}

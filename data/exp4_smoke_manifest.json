@@ -1,0 +1,33 @@
+{
+  "experiment": "exp4_pareto_K_eps",
+  "timestamp_utc": "2026-04-18T16:48:49Z",
+  "git_hash": "4d72948a0560a91fc7af5e5cb2c405443a6f6066",
+  "git_dirty": true,
+  "torch_version": "2.10.0",
+  "mps_available": true,
+  "physics": {
+    "N": 200,
+    "dt": 0.05,
+    "T": 500,
+    "coupling_J": 1.5,
+    "noise_sigma": 3.0,
+    "omega_std": 0.5
+  },
+  "K_values": [
+    1.0,
+    5.0,
+    20.0,
+    80.0
+  ],
+  "epsilons": [
+    0.002,
+    0.004,
+    0.008,
+    0.02
+  ],
+  "seeds": [
+    1,
+    2
+  ],
+  "wall_time_s": 6.085894823074341
+}

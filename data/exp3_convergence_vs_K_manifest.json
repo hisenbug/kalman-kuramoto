@@ -1,0 +1,29 @@
+{
+  "experiment": "exp3_convergence_vs_K",
+  "timestamp_utc": "2026-04-18T19:03:12Z",
+  "git_hash": "4d72948a0560a91fc7af5e5cb2c405443a6f6066",
+  "git_dirty": true,
+  "torch_version": "2.10.0",
+  "mps_available": true,
+  "physics": {
+    "N": 2000,
+    "dt": 0.05,
+    "T": 6000,
+    "coupling_J": 1.5,
+    "noise_sigma": 3.0,
+    "omega_std": 0.5
+  },
+  "epsilon": 0.01,
+  "K_values": [
+    5.0,
+    20.0,
+    50.0,
+    100.0
+  ],
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "wall_time_s": 26.755650997161865
+}
