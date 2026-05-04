@@ -1,7 +1,7 @@
 import warnings
 import torch
 
-
+# Simulated on an Apple M4 Pro chip. Warning checks for device type.
 def get_device() -> torch.device:
     if torch.backends.mps.is_available():
         return torch.device("mps")
