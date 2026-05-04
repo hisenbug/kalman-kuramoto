@@ -4,7 +4,7 @@ from typing import Any
 
 @dataclass(frozen=True)
 class PhysicsParams:
-    """Shared physics constants. Values match Jan 30 research note."""
+    """Shared physics constants. Values updated on Jan 30."""
     N: int = 2000
     dt: float = 0.05
     T: int = 4000
@@ -20,7 +20,7 @@ class PredictiveParams:
     K is 'model precision' — the inverse-variance of the prior on the internal
     estimate of the global order-parameter phase psi. High K => heavy mass
     (slow belief, low Kalman gain). This is the 'inertial' interpretation
-    from the singular-perturbation framing in the EPL letter.
+    from the Renormalization Group framing.
 
     epsilon is the fraction of the N agents each agent samples per timestep.
     """
