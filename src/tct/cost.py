@@ -1,6 +1,6 @@
 """Cost accounting, with interaction and erasure channels kept separate.
 
-Two channels, never summed with a magic constant:
+Two channels, never summed with a constant:
 
   interaction_cost[t]  proportional to bandwidth consumed this step.
       Baseline (all-to-all):   N**2
@@ -11,7 +11,7 @@ Two channels, never summed with a magic constant:
           0.5 * log(1 + Var[innovation] / R)
       per update (information gain in nats), times N agents.
 
-The poster plots them stacked so the viewer sees the composition, not a
+The poster plots them stacked so the viewer sees the composition, instead of a
 weighted scalar.
 """
 from __future__ import annotations
