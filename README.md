@@ -5,8 +5,7 @@ The project measures how little communication suffices for coherent
 collective behaviour, and how that bandwidth scales with system size.
 
 Companion to the poster *"The Choir Without a Conductor: Phase Transitions in
-Sparse Predictive Multi-Agent Synchronization"* (Atma Anand, Department of
-Physics & Astronomy, University of Rochester; Finger Lakes Science &
+Sparse Predictive Multi-Agent Synchronization"* (Atma Anand, Finger Lakes Science &
 Technology Showcase, 2026).
 
 ## Main findings
